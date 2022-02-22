@@ -17,3 +17,36 @@ header > h3{
     font-size: 2rem;
     margin-top: 10px;
 }
+
+input{
+    width: 5.5rem;
+    height: 5rem;
+    font-size: 5rem;
+}
+
+.numericos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.sorteamento, .verificado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsortino{
+    padding: 5px 20px;
+    font-size: 2em;
+    margin-top: 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+p{
+    font-size: 2em;
+}
