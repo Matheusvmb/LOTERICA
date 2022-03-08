@@ -17,10 +17,13 @@ function catadorDeNumeros(qualitatividade, posicionamento){
     qualitatividade = Number(qualitatividade)
     if(qualitatividade>60){
         alert("Não se pode colocar, escolher, digitar ou teclar um numerico maior que 60")
+        limpeza(posicionamento)
     } else if(qualitatividade <= 0){
         alert("Não se pode colocar, escolher, digitar ou teclar um numerico menor que 0")
+        limpeza(posicionamento)
     }else if(numericoDigitalizado.includes(qualitatividade)){
         alert("Não pode repetir")
+        limpeza(posicionamento)
     }else{
         numericoDigitalizado[posicionamento]=qualitatividade
     }
@@ -34,4 +37,8 @@ function acertividade(){
         }
     })
     document.getElementById("totalidade").innerText = contabilizador
+}
+
+function limpeza(posicionamento){
+    document.getElementById(`numerino${posicionamento}`).value = ''
 }
