@@ -2,6 +2,9 @@ var numericoSortudo =[]
 var numericoDigitalizado = []
 
 function sorteamentoNumerico(){
+    if(numericoDigitalizado.length < 6 ){
+        alert("Antes de sortear, digite 6 números dos campos")
+    }else{
     numericoSortudo = []
     do{
     let sortitude = Math.ceil( Math.random() * 60) 
@@ -11,6 +14,7 @@ function sorteamentoNumerico(){
     
     document.getElementById("numerico_sortudo").innerText = numericoSortudo
     acertividade()
+    }
 }
 
 function catadorDeNumeros(qualitatividade, posicionamento){
