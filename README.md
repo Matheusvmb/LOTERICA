@@ -21,3 +21,12 @@ e no fim estes dois pares de 6 numeros são comparados para ver quantos são igu
 | Tela inicial | Primeira Rodada | 
 |--------------|-----------------|
 |   imagem 1   |     imagem 2    |  
+
+###### Codigo pricipal
+
+```js:
+function limpeza(posicionamento) {
+    document.getElementById(`numerino${posicionamento}`).value = ''
+}
+```
+
