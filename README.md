@@ -20,7 +20,7 @@ e no fim estes dois pares de 6 numeros são comparados para ver quantos são igu
 
 | Tela inicial | Primeira Rodada | 
 |--------------|-----------------|
-|   ![Tela_inicial](/img/Tela 1.png)   |     imagem 2    |  
+| ![Tela_inicial](/img/Tela_1.png)  |     imagem 2    |  
 
 ###### Codigo pricipal
 
